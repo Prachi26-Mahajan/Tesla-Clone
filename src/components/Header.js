@@ -104,6 +104,10 @@ const RightMenu = styled.div`
         text-transform: uppercase;
         padding: 0 15px;
       }
+      @media(max-width: 768px){
+        display:flex;
+        flex-direction:flex-end;
+      }
 `
 
 
